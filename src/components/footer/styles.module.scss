@@ -1,0 +1,75 @@
+.container {
+  margin-top: 6rem;
+  padding: 0 5rem;
+  @media screen and (max-width: 600px) {
+    padding: 0 1rem;
+  }
+  .featuresFooter {
+    display: grid;
+    grid-template-columns: 50% 10% 10% 10%;
+    @media screen and (max-width: 900px) {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    .col1 {
+      img {
+        width: 7rem;
+        height: 3rem;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-size: 0.875rem;
+      }
+    }
+    .col2 {
+      list-style: none;
+      li {
+        font-size: 0.875rem;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+        cursor: pointer;
+      }
+    }
+  }
+  hr {
+    margin: 0;
+    opacity: 0.25;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      span {
+        font-size: 0.75rem;
+        font-weight: 500;
+      }
+    }
+    .right {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      span {
+        font-size: 0.875rem;
+        font-weight: 600;
+      }
+      .whiteArrow {
+        width: 0.75rem;
+        height: 0.75rem;
+        fill: #ffffff;
+        stroke: #ffffff;
+        cursor: pointer;
+      }
+      .darkArrow {
+        width: 0.75rem;
+        height: 0.75rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
