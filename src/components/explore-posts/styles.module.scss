@@ -1,0 +1,98 @@
+.card {
+  width: 17rem;
+  height: 21rem;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.16);
+  .cardImg {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background-color: var(--primary-color);
+    img {
+      width: 50%;
+      height: 50%;
+    }
+  }
+  .cardBottom {
+    padding: 0.5rem;
+    .title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+      h6 {
+        font-size: 0.6rem;
+        color: var(--secondy-color);
+      }
+      span {
+        font-size: 0.6rem;
+        color: gray;
+      }
+    }
+    p {
+      font-size: 0.5rem;
+      margin-bottom: 0.5rem;
+      color: var(--secondy-color);
+    }
+    .percentage {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+      .percentageWrapper {
+        width: 15rem;
+        height: 0.5rem;
+        border-radius: 1rem;
+        border: 0.0625rem solid var(--thirdy-color);
+        background-color: transparent;
+        .percentageSolid {
+          height: 100%;
+          border-radius: 1rem;
+          background-color: var(--thirdy-color);
+        }
+      }
+      span {
+        font-size: 0.6rem;
+        font-weight: 500;
+        color: var(--thirdy-color);
+      }
+    }
+    .table {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      div {
+        margin-bottom: 0.25rem;
+        h6 {
+          font-size: 0.6rem;
+          color: var(--secondy-color);
+        }
+        span {
+          font-size: 0.6rem;
+          color: gray;
+        }
+      }
+    }
+  }
+  .cardTags {
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+    gap: 1rem;
+    span {
+      width: 4rem;
+      height: 1rem;
+      font-size: 0.6rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 0.15rem;
+      color: var(--secondy-color);
+      background-color: var(--primary-color);
+    }
+  }
+}
