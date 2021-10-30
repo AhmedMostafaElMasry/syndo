@@ -1,0 +1,49 @@
+.container {
+  padding: 5rem 5rem 0;
+  .title {
+    text-align: center;
+    margin-top: 5rem;
+    h3 {
+      font-size: 1.125rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    span {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  }
+  .inputs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    input {
+      width: 15rem;
+      height: 2rem;
+      font-size: 0.75rem;
+      padding-left: 0.5rem;
+      box-sizing: border-box;
+      border: 0.0312rem solid gray;
+      border-radius: 0.25rem;
+    }
+    select {
+      width: 9rem;
+      height: 2rem;
+      font-size: 0.75rem;
+      padding-left: 0.5rem;
+      box-sizing: border-box;
+      border: 0.0312rem solid gray;
+      border-radius: 0.25rem;
+    }
+  }
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+}
