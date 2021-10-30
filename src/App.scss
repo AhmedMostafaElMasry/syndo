@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  // colors for LightMode
+  --primary-color: #f4f4f4;
+  --secondy-color: #000000;
+  --thirdy-color: #00acb1;
+
+
+  // fonts
+  --roboto: 'Roboto', sans-serif;
+
+  // max width for app
+  max-width: 1440px;
+  margin: auto;
+
+  // fontsize
+  @media screen and (max-width: 1200px) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 900px) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 12px;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+  font-family: var(--roboto);
+  ::placeholder {
+    color: var(--secondy-color);
+  }
+}
